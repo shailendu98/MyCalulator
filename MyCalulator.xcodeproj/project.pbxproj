@@ -16,6 +16,7 @@
 		631DD8022CE1C546001124A7 /* MyCalulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631DD8012CE1C546001124A7 /* MyCalulatorTests.swift */; };
 		631DD80C2CE1C546001124A7 /* MyCalulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631DD80B2CE1C546001124A7 /* MyCalulatorUITests.swift */; };
 		631DD80E2CE1C546001124A7 /* MyCalulatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631DD80D2CE1C546001124A7 /* MyCalulatorUITestsLaunchTests.swift */; };
+		636841CB2CE27A8E00F9B77E /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636841CA2CE27A8E00F9B77E /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		631DD8072CE1C546001124A7 /* MyCalulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCalulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		631DD80B2CE1C546001124A7 /* MyCalulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCalulatorUITests.swift; sourceTree = "<group>"; };
 		631DD80D2CE1C546001124A7 /* MyCalulatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCalulatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		636841CA2CE27A8E00F9B77E /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				631DD7EA2CE1C545001124A7 /* AppDelegate.swift */,
 				631DD7EC2CE1C545001124A7 /* SceneDelegate.swift */,
 				631DD7EE2CE1C545001124A7 /* ViewController.swift */,
+				636841CA2CE27A8E00F9B77E /* ViewModel.swift */,
 				631DD7F02CE1C545001124A7 /* Main.storyboard */,
 				631DD7F32CE1C546001124A7 /* Assets.xcassets */,
 				631DD7F52CE1C546001124A7 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				631DD7EF2CE1C545001124A7 /* ViewController.swift in Sources */,
 				631DD7EB2CE1C545001124A7 /* AppDelegate.swift in Sources */,
+				636841CB2CE27A8E00F9B77E /* ViewModel.swift in Sources */,
 				631DD7ED2CE1C545001124A7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
