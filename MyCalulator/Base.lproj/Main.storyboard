@@ -33,7 +33,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="DEn-U9-ELT" firstAttribute="top" secondItem="Fpm-a7-LxJ" secondAttribute="top" constant="5" id="67s-Og-JW7"/>
                                     <constraint firstItem="DEn-U9-ELT" firstAttribute="leading" secondItem="Fpm-a7-LxJ" secondAttribute="leading" id="KPY-8g-oBm"/>
@@ -299,7 +299,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Fpm-a7-LxJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="5c0-2E-O63"/>
                             <constraint firstItem="qhY-oW-48b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="IZL-po-iVL"/>
@@ -314,6 +314,7 @@
                     <connections>
                         <outlet property="calculateNumber" destination="DEn-U9-ELT" id="qkg-bM-m6w"/>
                         <outlet property="calculateResult" destination="gMt-9Z-lgC" id="ayz-m8-sBM"/>
+                        <outlet property="resultView" destination="Fpm-a7-LxJ" id="j9Y-xJ-7Jg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -325,9 +326,6 @@
         <image name="delete.backward" catalog="system" width="128" height="102"/>
         <systemColor name="groupTableViewBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
